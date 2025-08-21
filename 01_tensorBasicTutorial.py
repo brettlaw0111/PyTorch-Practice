@@ -70,6 +70,7 @@ if torch.cuda.is_available():
     z = x + y
     z.to("cpu")
     print("Did the thing")
+
 #Requires Gradient
 #Tells pyTorch it needs to calculate the gradients of the tensor later in optimization steps
 #If you have a variable you wanna optimize, you need the gradients
